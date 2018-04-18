@@ -144,6 +144,7 @@ header {
   align-items: center;
   justify-content: center;
   max-width: 660px;
+  padding: 90px 0;
 }
 
 header p {
@@ -151,8 +152,21 @@ header p {
   text-align: center;
 }
 
+header span img {
+  border-radius: 50%;
+}
+
 #info {
   justify-content: space-between;
+}
+
+#info article:last-child {
+  flex-grow: 0;
+}
+
+section {
+  padding-top: 12px;
+  margin-bottom: 90px;
 }
 
 article {
