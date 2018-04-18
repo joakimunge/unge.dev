@@ -12,83 +12,82 @@
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <span>Photo</span>
-    <p>Description</p>
-  </header>
-  <main>
-    <div>
-      <h3>PROJECTS</h3>
-      <p>Description of projects</p>
-    </div>
-    <section>
-      <article>Project #1</article>
-      <article>Project #2</article>
-      <article>Project #3</article>
-      <article>Project #4</article>
-      <article>Project #5</article>
-      <article>Project #6</article>
-      <article>Project #7</article>
-      <article>Project #8</article>
-      <article>Project #9</article>
-    </section>
-    <section>
-      <article>
-        <h3>EXPERIENCE</h3>
-        <ul>
-          <li>
-            <h4>Workplace</h4>
-            <p>Role Description</p>
-          </li>
-          <li>
-            <h4>Workplace</h4>
-            <p>Role Description</p>
-          </li>
-          <li>
-            <h4>Workplace</h4>
-            <p>Role Description</p>
-          </li>
-        </ul>
-      </article>
-      <article>
-        <h3>EXPERIENCE</h3>
-        <ul>
-          <li>
-            <h4>Workplace</h4>
-            <p>Role Description</p>
-          </li>
-          <li>
-            <h4>Workplace</h4>
-            <p>Role Description</p>
-          </li>
-          <li>
-            <h4>Workplace</h4>
-            <p>Role Description</p>
-          </li>
-        </ul>
-      </article>
-      <article>
-        <h3>EXPERIENCE</h3>
-        <ul>
-          <li>
-            <h4>Workplace</h4>
-            <p>Role Description</p>
-          </li>
-          <li>
-            <h4>Workplace</h4>
-            <p>Role Description</p>
-          </li>
-          <li>
-            <h4>Workplace</h4>
-            <p>Role Description</p>
-          </li>
-        </ul>
-      </article>
-    </section>
-  </main>
+  <div id="root">
+    <header class="flex">
+      <span><img src="./img/avatar.jpg" alt="Avatar" width="64px"></span>
+      <p>I'm <strong>Joakim Unge</strong>, a developer currently <strong>studying at Chas Academy</strong> in <strong>Stockholm</strong> and <strong>looking for an internship.</strong></p>
+    </header>
+    <main>
+      <div>
+        <h3>PROJECTS</h3>
+        <p>A selection of work from my time studying at <strong>Chas Academy</strong></p>
+      </div>
+      <section id="showcase" class="flex">
+        <article><img src="http://placehold.it/300x188" alt="Project name"></article>
+        <article><img src="http://placehold.it/300x188" alt="Project name"></article>
+        <article><img src="http://placehold.it/300x188" alt="Project name"></article>
+        <article><img src="http://placehold.it/300x188" alt="Project name"></article>
+        <article><img src="http://placehold.it/300x188" alt="Project name"></article>
+        <article><img src="http://placehold.it/300x188" alt="Project name"></article>
+        <article><img src="http://placehold.it/300x188" alt="Project name"></article>
+        <article><img src="http://placehold.it/300x188" alt="Project name"></article>
+        <article><img src="http://placehold.it/300x188" alt="Project name"></article>
+      </section>
+      <section id="info" class="flex">
+        <article>
+          <h3>Experience</h3>
+          <ul>
+            <li>
+              <h4>King</h4>
+              <p>Graphic Designer</p>
+            </li>
+            <li>
+              <h4>Stardoll (Glorious Games Group)</h4>
+              <p>Digital Experience Designer</p>
+            </li>
+            <li>
+              <h4>Norma Communication</h4>
+              <p>Graphic Design Intern</p>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3>Education</h3>
+          <ul>
+            <li>
+              <h4>Chas Academy</h4>
+              <p>Full Stack Web Development</p>
+            </li>
+            <li>
+              <h4>Idévärlden</h4>
+              <p>Graphic Design</p>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3>Publications</h3>
+          <ul>
+            <li>
+              <h4>FromUpNorth.com</h4>
+              <p>Digital Art Inspiration 619</p>
+              <span>Nov 13, 2012</span>
+              <a href="#">See publication</a>
+            </li>
+            <li>
+              <h4>Abduzeedo</h4>
+              <p>Daily Inspiration #1286</p>
+              <span>Nov 16, 2012</span>
+              <a href="#">See publication</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>
