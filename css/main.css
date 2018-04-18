@@ -203,6 +203,13 @@ article {
   margin: 1rem;
 }
 
+.divider {
+  display: block;
+  height: 2px;
+  width: 6rem;
+  background-color: #f23468;
+}
+
 @media screen and (min-width: 600px) {
   header {
     padding: 90px 0px;
