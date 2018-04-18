@@ -86,6 +86,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
+  box-sizing: border-box;
+}
 
 main {
   padding: 12px;
@@ -144,7 +147,7 @@ header {
   align-items: center;
   justify-content: center;
   max-width: 660px;
-  padding: 90px 0;
+  padding: 3rem 2rem;
 }
 
 header p {
@@ -152,7 +155,7 @@ header p {
   text-align: center;
 }
 
-header span img {
+header > span > img {
   border-radius: 50%;
 }
 
@@ -166,7 +169,7 @@ header span img {
 
 section {
   padding-top: 12px;
-  margin-bottom: 90px;
+  margin-bottom: 3rem;
 }
 
 article {
@@ -199,7 +202,15 @@ article {
   width: 100%;
 }
 
+.disclaimer {
+  margin: 1rem;
+}
+
 @media screen and (min-width: 600px) {
+  header {
+    padding: 90px 0px;
+  }
+
   #showcase {
     display: flex;
     flex-wrap: wrap;
