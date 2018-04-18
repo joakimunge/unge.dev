@@ -12,7 +12,7 @@
 
 html {
   color: #5b5b5b;
-  font-size: 1em;
+  font-size: 0.7em;
   line-height: 1.4;
   font-family: "Lato", "Helvetica", "Arial", sans-serif;
 }
@@ -86,6 +86,50 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+main {
+  padding: 12px;
+}
+
+h1,
+h2,
+h3,
+h5 {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+p {
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+ul p {
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #37a0e6;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #f23468;
+}
 
 #root {
   max-width: 960px;
