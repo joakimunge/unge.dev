@@ -159,14 +159,6 @@ header > span > img {
   border-radius: 50%;
 }
 
-#info {
-  justify-content: space-between;
-}
-
-#info article:last-child {
-  flex-grow: 0;
-}
-
 section {
   padding-top: 12px;
   margin-bottom: 3rem;
@@ -175,6 +167,11 @@ section {
 article {
   margin: 1rem;
   flex-grow: 1;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
 }
 
 #showcase img {
@@ -211,10 +208,15 @@ article {
     padding: 90px 0px;
   }
 
-  #showcase {
+  #showcase,
+  #info {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+  }
+
+  #info article:last-child {
+    flex-grow: 0;
   }
 
   #showcase article {
