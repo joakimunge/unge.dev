@@ -170,13 +170,13 @@ section {
 }
 
 article {
-  margin-right: 12px;
-  margin-bottom: 12px;
+  margin: 1rem;
   flex-grow: 1;
 }
 
 #showcase img {
-  width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 #showcase article {
@@ -197,6 +197,24 @@ article {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  #showcase {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  #showcase article {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #showcase article {
+    width: calc(33.3333% - 2rem);
+  }
 }
 
 /* ==========================================================================
