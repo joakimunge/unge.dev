@@ -8,7 +8,7 @@ html {
   color: #5b5b5b;
   font-size: 0.7em;
   line-height: 1.4;
-  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
 }
 
 ::-moz-selection {
@@ -122,6 +122,14 @@ article {
   flex-direction: column;
 }
 
+#info article a h4 {
+  color: #5b5b5b;
+}
+
+#info article a h4:hover {
+  color: #f23468;
+}
+
 #showcase img {
   max-width: 100%;
   display: block;
@@ -156,6 +164,10 @@ article {
   height: 2px;
   width: 6rem;
   background-color: #f23468;
+}
+
+.date {
+  font-size: 10px;
 }
 
 /* Media queries */
