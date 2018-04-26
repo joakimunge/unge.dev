@@ -179,6 +179,21 @@ article {
   flex-direction: column;
 }
 
+#social {
+  display: flex;
+  width: 92px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#social > li > a {
+  color: #aaaaaa;
+}
+
+#social > li > a:hover {
+  color: #f23468;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 600px) {
