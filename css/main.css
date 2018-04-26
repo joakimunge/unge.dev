@@ -8,7 +8,7 @@ html {
   color: #5b5b5b;
   font-size: 0.7em;
   line-height: 1.4;
-  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
 }
 
 ::-moz-selection {
@@ -148,7 +148,7 @@ article {
 }
 
 #showcase article:hover .overlay {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 #showcase article:hover .content {
@@ -226,7 +226,7 @@ article {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
     overflow: hidden;
     z-index: 99;
     display: block;
@@ -234,7 +234,7 @@ article {
 
   .content {
     text-align: center;
-    color: #fff;
+    color: #5b5b5b;
     align-items: center;
     transition: all 0.3s ease;
     position: absolute;
@@ -245,6 +245,7 @@ article {
     z-index: 199;
     opacity: 0;
     padding: 0px 0px 20px 0px;
+    background-color: #fff;
   }
 
   .content .links {
