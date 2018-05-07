@@ -215,6 +215,10 @@ article {
   #showcase article {
     width: calc(50% - 2rem);
   }
+
+  #showcase img {
+    border: none;
+  }
 }
 
 @media screen and (min-width: 1000px) {
