@@ -145,6 +145,39 @@ article {
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
+#social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#social > li > a {
+  color: #aaaaaa;
+}
+
+#social > li > a:hover {
+  color: #f23468;
+}
+
+#social li {
+  margin-right: 2rem;
+}
+
+#social li:last-child {
+  margin-right: 0;
+}
+
+#tech {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+#tech li {
+  color: #aaaaaa;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -179,26 +212,11 @@ article {
   flex-direction: column;
 }
 
-#social {
-  display: flex;
-  width: 92px;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-#social > li > a {
-  color: #aaaaaa;
-}
-
-#social > li > a:hover {
-  color: #f23468;
-}
-
 /* Media queries */
 
 @media screen and (min-width: 600px) {
   header {
-    padding: 90px 0px;
+    padding: 45px 0px;
   }
 
   #showcase,
