@@ -88,6 +88,8 @@ ul p {
 
 main {
   padding: 12px;
+  width: 100%;
+  max-width: 720px;
 }
 
 header {
@@ -219,7 +221,6 @@ article {
     padding: 45px 0px;
   }
 
-  #showcase,
   #info {
     display: flex;
     flex-wrap: wrap;
@@ -229,26 +230,9 @@ article {
   #info article:last-child {
     flex-grow: 0;
   }
-
-  #showcase article {
-    width: calc(50% - 2rem);
-  }
-
-  #showcase img {
-    border: none;
-  }
 }
 
 @media screen and (min-width: 1000px) {
-  #showcase article {
-    cursor: pointer;
-    width: calc(33.3333% - 2rem);
-  }
-
-  #showcase article:hover .content {
-    opacity: 1;
-  }
-
   .content {
     display: flex;
     text-align: center;
