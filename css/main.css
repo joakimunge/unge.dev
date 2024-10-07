@@ -100,9 +100,12 @@ header {
   padding: 3rem 2rem;
 }
 
-header p {
+header h1 {
   font-size: 24px;
   text-align: center;
+  text-transform: none;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
 }
 
 header > span > img {
